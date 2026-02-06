@@ -1,0 +1,30 @@
+{
+  "users": [
+    { "id": 1, "name": "Alice Johnson", "email": "alice@example.com", "role": "Admin", "status": "Active", "avatar": "https://picsum.photos/seed/1/40" },
+    { "id": 2, "name": "Bob Smith", "email": "bob@example.com", "role": "Editor", "status": "Active", "avatar": "https://picsum.photos/seed/2/40" },
+    { "id": 3, "name": "Charlie Brown", "email": "charlie@example.com", "role": "Viewer", "status": "Inactive", "avatar": "https://picsum.photos/seed/3/40" },
+    { "id": 4, "name": "Diana Prince", "email": "diana@example.com", "role": "Admin", "status": "Pending", "avatar": "https://picsum.photos/seed/4/40" },
+    { "id": 5, "name": "Edward Norton", "email": "ed@example.com", "role": "Viewer", "status": "Active", "avatar": "https://picsum.photos/seed/5/40" }
+  ],
+  "products": [
+    { "id": 1, "name": "Premium Wireless Headphones", "category": "Electronics", "price": 299, "stock": 45, "sales": 120, "image": "https://picsum.photos/seed/p1/200" },
+    { "id": 2, "name": "Ergonomic Desk Chair", "category": "Furniture", "price": 450, "stock": 12, "sales": 34, "image": "https://picsum.photos/seed/p2/200" },
+    { "id": 3, "name": "Smart Fitness Tracker", "category": "Electronics", "price": 99, "stock": 150, "sales": 450, "image": "https://picsum.photos/seed/p3/200" },
+    { "id": 4, "name": "Coffee Brewing Kit", "category": "Home", "price": 120, "stock": 30, "sales": 88, "image": "https://picsum.photos/seed/p4/200" }
+  ],
+  "stats": {
+    "totalRevenue": 54230,
+    "totalUsers": 5,
+    "totalSales": 692,
+    "conversionRate": 3.4,
+    "revenueHistory": [
+      { "name": "Jan", "value": 4000 },
+      { "name": "Feb", "value": 3000 },
+      { "name": "Mar", "value": 2000 },
+      { "name": "Apr", "value": 2780 },
+      { "name": "May", "value": 1890 },
+      { "name": "Jun", "value": 2390 },
+      { "name": "Jul", "value": 3490 }
+    ]
+  }
+}

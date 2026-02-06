@@ -1,0 +1,26 @@
+services:
+  # Frontend - Vite React App
+  - type: web
+    name: admin-dashboard-frontend
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npx vite preview --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: NODE_VERSION
+        value: 22.16.0
+      - key: VITE_API_URL
+        sync: false
+
+  # Backend - json-server
+  - type: web
+    name: admin-dashboard-api
+    env: node
+    region: oregon
+    plan: free
+    buildCommand: npm install
+    startCommand: npx json-server --watch db.json --port $PORT --host 0.0.0.0
+    envVars:
+      - key: NODE_VERSION
+        value: 22.16.0
