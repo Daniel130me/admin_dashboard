@@ -12,7 +12,7 @@ const middlewares = jsonServer.defaults({
   static: path.join(__dirname, "dist"),
 });
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3001;
 
 server.use(middlewares);
 
