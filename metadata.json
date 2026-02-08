@@ -1,9 +1,0 @@
-
-{
-  "name": "Lumina Admin Dashboard",
-  "description": "A high-performance, AI-integrated administrative dashboard featuring real-time analytics, user management, and automated insights powered by Gemini 3.",
-  "requestFramePermissions": [
-    "camera",
-    "microphone"
-  ]
-}

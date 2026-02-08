@@ -7,8 +7,8 @@
     "dev": "concurrently \"vite\" \"json-server --watch db.json --port 3001\"",
     "build": "vite build",
     "preview": "vite preview",
-    "server": "json-server --watch db.json --port 3001",
-    "start": "concurrently \"npx serve -s dist -l 3000\" \"json-server --watch db.json --port 3001 --host 0.0.0.0\""
+    "api": "json-server --watch db.json --port 3001",
+    "start:prod": "node server.js"
   },
   "dependencies": {
     "react-router-dom": "^7.13.0",
